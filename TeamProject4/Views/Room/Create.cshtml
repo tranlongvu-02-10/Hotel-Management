@@ -1,0 +1,192 @@
+﻿@model Phong
+@{
+    ViewData["Title"] = "Create room";
+    Layout = "_ManagerLayout";
+}
+<style>
+    /* Main container */
+    .create-room-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Header */
+    .display-4 {
+        color: #2c3e50;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        position: relative;
+    }
+
+    .display-4:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 4px;
+        background: linear-gradient(to right, #3498db, #2ecc71);
+        border-radius: 2px;
+    }
+
+    /* Form styling */
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-control {
+        border: 1px solid #e0e6ed;
+        border-radius: 8px;
+        padding: 12px 15px;
+        transition: all 0.3s;
+    }
+
+    .form-control:focus {
+        border-color: #3498db;
+        box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+    }
+
+    .input-group-text {
+        background-color: #f8f9fa;
+        border-color: #e0e6ed;
+    }
+
+    /* Labels */
+    .font-weight-bold {
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    /* Buttons */
+    .btn {
+        border-radius: 8px;
+        padding: 12px 20px;
+        font-weight: 500;
+        transition: all 0.3s;
+        border: none;
+    }
+
+    .btn-primary {
+        background-color: #2ecc71;
+    }
+
+    .btn-warning {
+        background-color: #f39c12;
+        color: white;
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Validation messages */
+    .text-danger {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /* Responsive adjustments */
+    @@media (max-width: 768px) {
+        .create-room-container {
+            padding: 20px;
+        }
+        
+        .btn {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+</style>
+
+<div class="create-room-container">
+    <div class="text-center">
+        <h2 class="display-4">TẠO PHÒNG MỚI</h2>
+    </div>
+
+    <form asp-action="Create" method="post">
+        <div class="row mt-4">
+            <div class="col-md-6">              
+                <div class="form-group">
+                    <label asp-for="Tenphong" class="font-weight-bold">Tên phòng</label>
+                    <input type="text" asp-for="Tenphong" class="form-control" />
+                    <span asp-validation-for="Tenphong" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Maloaiphong" class="font-weight-bold">Loại phòng</label>
+                    <select class="form-control" asp-for="Maloaiphong" id="roomType" asp-items="ViewBag.RoomType"></select>
+                    <span asp-validation-for="Maloaiphong" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="font-weight-bold">Đơn giá</label>
+                    <div class="input-group">
+                        <input type="number" id="Price" class="form-control" readonly />
+                        <div class="input-group-append">
+                            <span class="input-group-text">VND</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="font-weight-bold" asp-for="Soluongkhachtoida">Số khách ở tối đa</label>
+                    <input asp-for="Soluongkhachtoida" type="number" id="numberCustomer" class="form-control">
+                    <span asp-validation-for="Soluongkhachtoida" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Ghichu" class="font-weight-bold">Ghi chú</label>
+                    <input type="text" asp-for="Ghichu" class="form-control" />
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6 d-flex justify-content-start">
+                <a asp-action="RoomList" class="btn btn-warning" asp-route-manager="@(TempData["Manager"].ToString())">Xem danh sách phòng</a>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary" asp-route-manager="@(TempData["Manager"].ToString())">Tạo phòng</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    document.getElementById("numberCustomer").value = 2;
+
+    var roomTypeDropdown = document.getElementById("roomType");
+    var priceField = document.getElementById("Price");
+    var roomTypes = @Html.Raw(Json.Serialize(ViewBag.RoomType));
+    var roomDongia = @Html.Raw(Json.Serialize(ViewBag.RoomType2));
+
+    // Initialize price with the smallest room's price
+    var smallestRoomId = Math.min(...roomDongia.map(room => parseInt(room.value)));
+    var smallestRoom = roomDongia.find(room => parseInt(room.value) === smallestRoomId);
+    priceField.value = smallestRoom.text;
+
+    roomTypeDropdown.addEventListener("change", function () {
+        var selectedType = this.value;
+        var selectedRoomType = roomTypes.find(function (roomType) {
+            return roomType.value === selectedType;
+        });
+
+        if (selectedRoomType) {
+            var maloaiphong = selectedRoomType.value;
+            var dongia = roomDongia.find(function (room) {
+                return room.value === maloaiphong;
+            });
+
+            if (dongia) {
+                priceField.value = dongia.text;
+            }
+        }
+    });
+</script>

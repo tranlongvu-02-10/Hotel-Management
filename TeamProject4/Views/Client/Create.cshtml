@@ -1,0 +1,169 @@
+﻿@model Khachhang
+@{
+    ViewData["Title"] = "ADD CLIENT INFO";
+    Layout = "_ManagerLayout";
+}
+
+<style>
+    /* Main container */
+    .add-client-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header */
+    .add-client-header {
+        color: #2c3e50;
+        font-weight: 600;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        position: relative;
+        text-align: center;
+    }
+
+    .add-client-header:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 3px;
+        background: linear-gradient(to right, #3498db, #2c3e50);
+    }
+
+    /* Form styling */
+    .client-form-group {
+        margin-bottom: 20px;
+    }
+
+    .client-form-label {
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .client-form-control {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 12px 15px;
+        width: 100%;
+        transition: all 0.3s;
+    }
+
+    .client-form-control:focus {
+        border-color: #3498db;
+        box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+    }
+
+    /* Button styling */
+    .client-action-btn {
+        border-radius: 8px;
+        padding: 12px 25px;
+        font-weight: 500;
+        transition: all 0.3s;
+        border: none;
+    }
+
+    .client-submit-btn {
+        background-color: #3498db;
+        color: white;
+    }
+
+    .client-submit-btn:hover {
+        background-color: #2980b9;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .client-cancel-btn {
+        background-color: #f39c12;
+        color: white;
+    }
+
+    .client-cancel-btn:hover {
+        background-color: #e67e22;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Validation error */
+    .client-validation-error {
+        color: #e74c3c;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /* Responsive adjustments */
+    @@media (max-width: 768px) {
+        .add-client-container {
+            padding: 20px;
+        }
+        
+        .client-action-btn {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+</style>
+
+<div class="add-client-container">
+    <h2 class="add-client-header">THÊM KHÁCH HÀNG MỚI</h2>
+
+    <form asp-action="Create" method="post">
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="client-form-group">
+                    <label asp-for="Tenkh" class="client-form-label">Tên khách hàng</label>
+                    <input type="text" asp-for="Tenkh" class="form-control client-form-control" />
+                    <span asp-validation-for="Tenkh" class="client-validation-error"></span>
+                </div>
+                <div class="client-form-group">
+                    <label asp-for="Tuoi" class="client-form-label">Tuổi</label>
+                    <input type="number" asp-for="Tuoi" class="form-control client-form-control" placeholder="25" />
+                    <span asp-validation-for="Tuoi" class="client-validation-error"></span>
+                </div>
+                <div class="client-form-group">
+                    <label asp-for="Maloaikhach" class="client-form-label">Loại khách</label>
+                    <select class="form-control client-form-control" asp-for="Maloaikhach" id="clientType" asp-items="ViewBag.ClientType"></select>
+                    <span asp-validation-for="Maloaikhach" class="client-validation-error"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="client-form-group">
+                    <label asp-for="Cmndkh" class="client-form-label">CMND</label>
+                    <input type="text" asp-for="Cmndkh" class="form-control client-form-control" placeholder="111111111111" />
+                    <span asp-validation-for="Cmndkh" class="client-validation-error"></span>
+                </div>
+                <div class="client-form-group">
+                    <label asp-for="Tel" class="client-form-label">Số điện thoại</label>
+                    <input type="text" asp-for="Tel" class="form-control client-form-control" placeholder="+84123456789" />
+                    <span asp-validation-for="Tel" class="client-validation-error"></span>
+                </div>
+                <div class="client-form-group">
+                    <label asp-for="Diachikh" class="client-form-label">Địa chỉ</label>
+                    <input type="text" asp-for="Diachikh" class="form-control client-form-control" />
+                    <span asp-validation-for="Diachikh" class="client-validation-error"></span>
+                </div>
+                <div class="client-form-group">
+                    <label asp-for="Map" class="client-form-label">Tên Phòng</label>
+                    <select class="form-control client-form-control" asp-for="Map" id="clientType" asp-items="ViewBag.ClientRoom"></select>
+                    <span asp-validation-for="Map" class="client-validation-error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6 d-flex justify-content-start">
+                <a asp-controller="Client" asp-action="ClientList" class="btn client-action-btn client-cancel-btn">Xem danh sách khách hàng</a>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <button type="submit" class="btn client-action-btn client-submit-btn">Thêm</button>
+            </div>
+        </div>
+    </form>
+</div>

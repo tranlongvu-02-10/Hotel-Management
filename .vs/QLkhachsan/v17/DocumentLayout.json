@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\models\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\models\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\filters\\customauthorizationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\filters\\customauthorizationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\interfacesrepositories\\itaikhoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\interfacesrepositories\\itaikhoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\models\\authorizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\models\\authorizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\models\\phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\models\\phong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\views\\shared\\_managerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\views\\shared\\_managerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\views\\shared\\_stafflayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\views\\shared\\_stafflayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\controllers\\phuthucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\controllers\\phuthucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\views\\nhanvien\\nhanvienlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\views\\nhanvien\\nhanvienlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\repositories\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\repositories\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\repositories\\taikhoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\repositories\\taikhoanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\repositories\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\repositories\\billrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|d:\\quan_ly_khach_san-master\\quan_ly_khach_san-master\\teamproject4\\interfacesrepositories\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65D3F6F-B7FB-49EF-B95D-5CA761900FB9}|TeamProject4\\Team_Project_4.csproj|solutionrelative:teamproject4\\interfacesrepositories\\ibillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALMUAAAAAAAAAAAswMkUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-28T21:29:51.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TeamProject4\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "TeamProject4\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T21:27:28.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "TeamProject4\\Views\\Account\\Index.cshtml",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "TeamProject4\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T21:27:22.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TeamProject4\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwGIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:04:48.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Nhanvien.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\Nhanvien.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Models\\Nhanvien.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\Nhanvien.cs",
+              "RelativeToolTip": "TeamProject4\\Models\\Nhanvien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:00:47.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TeamProject4\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:00:26.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Taikhoan.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\Taikhoan.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Models\\Taikhoan.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\Taikhoan.cs",
+              "RelativeToolTip": "TeamProject4\\Models\\Taikhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:00:10.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HotelDbContext.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\HotelDbContext.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Models\\HotelDbContext.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\HotelDbContext.cs",
+              "RelativeToolTip": "TeamProject4\\Models\\HotelDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomAuthorizationAttribute.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Filters\\CustomAuthorizationAttribute.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Filters\\CustomAuthorizationAttribute.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Filters\\CustomAuthorizationAttribute.cs",
+              "RelativeToolTip": "TeamProject4\\Filters\\CustomAuthorizationAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:04:17.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITaikhoanRepository.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\InterfacesRepositories\\ITaikhoanRepository.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\InterfacesRepositories\\ITaikhoanRepository.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\InterfacesRepositories\\ITaikhoanRepository.cs",
+              "RelativeToolTip": "TeamProject4\\InterfacesRepositories\\ITaikhoanRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthorizationModel.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\AuthorizationModel.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Models\\AuthorizationModel.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\AuthorizationModel.cs",
+              "RelativeToolTip": "TeamProject4\\Models\\AuthorizationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T21:00:21.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Phong.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\Phong.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Models\\Phong.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Models\\Phong.cs",
+              "RelativeToolTip": "TeamProject4\\Models\\Phong.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBQwBUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Client\\Create.cshtml",
+              "RelativeDocumentMoniker": "TeamProject4\\Views\\Client\\Create.cshtml",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Client\\Create.cshtml",
+              "RelativeToolTip": "TeamProject4\\Views\\Client\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T19:43:18.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ManagerLayout.cshtml",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Shared\\_ManagerLayout.cshtml",
+              "RelativeDocumentMoniker": "TeamProject4\\Views\\Shared\\_ManagerLayout.cshtml",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Shared\\_ManagerLayout.cshtml",
+              "RelativeToolTip": "TeamProject4\\Views\\Shared\\_ManagerLayout.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T19:43:18.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\appsettings.json",
+              "RelativeDocumentMoniker": "TeamProject4\\appsettings.json",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\appsettings.json",
+              "RelativeToolTip": "TeamProject4\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-28T19:43:18.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_StaffLayout.cshtml",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Shared\\_StaffLayout.cshtml",
+              "RelativeDocumentMoniker": "TeamProject4\\Views\\Shared\\_StaffLayout.cshtml",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Shared\\_StaffLayout.cshtml",
+              "RelativeToolTip": "TeamProject4\\Views\\Shared\\_StaffLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T19:46:18.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PhuthuController.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Controllers\\PhuthuController.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Controllers\\PhuthuController.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Controllers\\PhuthuController.cs",
+              "RelativeToolTip": "TeamProject4\\Controllers\\PhuthuController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwDwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TeamProject4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TeamProject4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T19:46:15.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NhanvienController.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Controllers\\NhanvienController.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Controllers\\NhanvienController.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Controllers\\NhanvienController.cs",
+              "RelativeToolTip": "TeamProject4\\Controllers\\NhanvienController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAIBJwIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NhanvienList.cshtml",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Nhanvien\\NhanvienList.cshtml",
+              "RelativeDocumentMoniker": "TeamProject4\\Views\\Nhanvien\\NhanvienList.cshtml",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Views\\Nhanvien\\NhanvienList.cshtml",
+              "RelativeToolTip": "TeamProject4\\Views\\Nhanvien\\NhanvienList.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAIBJwDwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T19:43:18.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NhanvienRepository.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Repositories\\NhanvienRepository.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Repositories\\NhanvienRepository.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Repositories\\NhanvienRepository.cs",
+              "RelativeToolTip": "TeamProject4\\Repositories\\NhanvienRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwDcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TaikhoanRepository.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Repositories\\TaikhoanRepository.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Repositories\\TaikhoanRepository.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Repositories\\TaikhoanRepository.cs",
+              "RelativeToolTip": "TeamProject4\\Repositories\\TaikhoanRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwBcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BillController.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Controllers\\BillController.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Controllers\\BillController.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Controllers\\BillController.cs",
+              "RelativeToolTip": "TeamProject4\\Controllers\\BillController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Program.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Program.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Program.cs",
+              "RelativeToolTip": "TeamProject4\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwCgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BillRepository.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Repositories\\BillRepository.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\Repositories\\BillRepository.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\Repositories\\BillRepository.cs",
+              "RelativeToolTip": "TeamProject4\\Repositories\\BillRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IBillRepository.cs",
+              "DocumentMoniker": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\InterfacesRepositories\\IBillRepository.cs",
+              "RelativeDocumentMoniker": "TeamProject4\\InterfacesRepositories\\IBillRepository.cs",
+              "ToolTip": "D:\\Quan_Ly_Khach_San-master\\Quan_Ly_Khach_San-master\\TeamProject4\\InterfacesRepositories\\IBillRepository.cs",
+              "RelativeToolTip": "TeamProject4\\InterfacesRepositories\\IBillRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:43:18.138Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

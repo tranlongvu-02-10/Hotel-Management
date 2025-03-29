@@ -1,0 +1,126 @@
+﻿@model Team_Project_4.ViewModels.test1
+@{
+    Layout = "_ManagerLayout";
+}
+<style>
+    /* Main container */
+    .invoice-create-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Header styling */
+    h2 {
+        color: #2c3e50;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        position: relative;
+    }
+
+    h2:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 3px;
+        background: linear-gradient(to right, #3498db, #2ecc71);
+    }
+
+    /* Form styling */
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-control {
+        border: 1px solid #e0e6ed;
+        border-radius: 8px;
+        padding: 12px 15px;
+        transition: all 0.3s;
+    }
+
+    .form-control:focus {
+        border-color: #3498db;
+        box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+    }
+
+    .form-control[readonly] {
+        background-color: #f8f9fa;
+    }
+
+    /* Label styling */
+    .control-label {
+        font-weight: 500;
+        color: #2c3e50;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    /* Button styling */
+    .btn {
+        border-radius: 8px;
+        padding: 10px 25px;
+        font-weight: 500;
+        transition: all 0.3s;
+        border: none;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Validation messages */
+    .text-danger {
+        font-size: 14px;
+        margin-top: 5px;
+        color: #e74c3c;
+    }
+
+    /* Responsive adjustments */
+    @@media (max-width: 768px) {
+        .invoice-create-container {
+            padding: 20px;
+        }
+    }
+</style>
+
+<div class="invoice-create-container">
+    <h2>LẬP HÓA ĐƠN</h2>
+    
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <form asp-action="Test2" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+                <div class="form-group">
+                    <label asp-for="Ngaylaphd" class="control-label">Ngày Lập Hóa Đơn</label>
+                    <input asp-for="Ngaylaphd" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" readonly />
+                    <span asp-validation-for="Ngaylaphd" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="CCCD" class="control-label">Nhập CCCD Khách Hàng</label>
+                    <input asp-for="CCCD" class="form-control" placeholder="Nhập số CCCD..." />
+                    <span asp-validation-for="CCCD" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group text-right">
+                    <button type="submit" class="btn btn-primary">Tạo</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

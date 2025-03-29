@@ -1,0 +1,144 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+
+/* Sidebar tối ưu */
+.bg-dark {
+  background-color: #1a1a2e !important; /* Màu sidebar tối hơn */
+  transition: all 0.3s ease;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+/* Menu items */
+.nav-pills {
+  width: 100%;
+}
+
+.nav-link {
+  border-radius: 0.25rem;
+  margin-bottom: 0.25rem;
+  transition: all 0.2s;
+  padding: 0.75rem 1rem !important;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  transform: translateX(5px);
+}
+
+.nav-link i {
+  font-size: 1.1rem;
+  min-width: 25px;
+  text-align: center;
+}
+
+/* Submenu */
+.collapse {
+  padding-left: 1.5rem;
+}
+
+.collapse .nav-link {
+  padding: 0.5rem 1rem !important;
+  font-size: 0.9rem;
+}
+
+/* Active state */
+.nav-link.active {
+  background-color: #0d6efd !important;
+  color: white !important;
+}
+
+/* Logo/Title */
+.fs-5 {
+  font-weight: 600;
+  color: #fff;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+/* Logout button */
+.mb-auto .text-center {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1rem;
+  width: 100%;
+}
+
+/* Main content area */
+.col.py-3 {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .d-none.d-sm-inline {
+      display: none !important;
+  }
+  
+  .nav-link {
+      text-align: center;
+      padding: 0.5rem !important;
+  }
+  
+  .nav-link i {
+      font-size: 1.25rem;
+      display: block;
+      margin: 0 auto;
+  }
+  
+  .px-sm-2 {
+      padding-left: 0.5rem !important;
+      padding-right: 0.5rem !important;
+  }
+}
+/* Smooth hover animation */
+.nav-item {
+  transition: transform 0.3s;
+}
+
+.nav-item:hover {
+  transform: translateX(5px);
+}
+/* Icon spacing */
+.bi {
+  vertical-align: middle;
+}
+
+/* Submenu indicator */
+[data-bs-toggle="collapse"]::after {
+  content: '\F282';
+  font-family: 'bootstrap-icons';
+  float: right;
+  transition: transform 0.3s;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+[data-bs-toggle="collapse"].collapsed::after {
+  content: '\F285';
+  transform: rotate(-90deg);
+}
