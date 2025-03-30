@@ -135,6 +135,48 @@
         </div>
     </form>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const dateInput = document.getElementById('ngaylapptInput');
+        const form = document.querySelector('form');
+        
+        // Đặt max date là hôm nay
+        const today = new Date().toISOString().split('T')[0];
+        dateInput.setAttribute('max', today);
+        dateInput.value = today;
+
+        // Validate khi thay đổi ngày
+        dateInput.addEventListener('change', function() {
+            validateDate();
+        });
+
+        // Validate khi submit
+        form.addEventListener('submit', function(e) {
+            if (!validateDate()) {
+                e.preventDefault();
+                alert('Ngày lập phiếu không được là ngày tương lai');
+            }
+        });
+
+        function validateDate() {
+            const selectedDate = new Date(dateInput.value);
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            
+            const errorSpan = dateInput.nextElementSibling.nextElementSibling;
+            
+            if (selectedDate > today) {
+                errorSpan.textContent = 'Ngày lập phiếu không được là ngày tương lai';
+                dateInput.classList.add('is-invalid');
+                return false;
+            }
+            
+            errorSpan.textContent = '';
+            dateInput.classList.remove('is-invalid');
+            return true;
+        }
+    });
+</script>
 
 <!-- Required scripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
