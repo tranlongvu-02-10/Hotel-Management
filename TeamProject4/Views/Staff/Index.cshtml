@@ -5,6 +5,75 @@
     ViewData["Title"] = "Staff Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Chào mừng nhân viên</h1>
+<style>
+    .welcome-container {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        border-radius: 10px;
+        padding: 2rem;
+        margin-top: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .welcome-title {
+        color: #2c3e50;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+    
+    .welcome-content {
+        color: #34495e;
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+    }
+    
+    .manager-name {
+        color: #3498db;
+        font-weight: 600;
+    }
+    
+    .current-time {
+        font-style: italic;
+        color: #7f8c8d;
+        margin-top: 1rem;
+    }
+</style>
+
+<div class="container welcome-container">
+    <h1 class="welcome-title display-4">Chào mừng Nhân Viên</h1>
+    
+    <div class="welcome-content">
+        @if (Model != null)
+        {
+            <p>Xin chào <span class="manager-name">@(Model.Hoten ?? "Nhân Viên")</span>,</p>
+        }
+        else
+        {
+            <p>Xin chào <span class="manager-name">Nhân Viên</span>,</p>
+        }
+        <p>Hệ thống quản lý khách sạn sẵn sàng hỗ trợ bạn!</p>
+        
+        <div class="current-time" id="current-time">
+            @DateTime.Now.ToString("dddd, dd/MM/yyyy HH:mm")
+        </div>
+    </div>
 </div>
+
+<script>
+    // Cập nhật thời gian thực
+    function updateTime() {
+        const now = new Date();
+        const options = { 
+            weekday: 'long', 
+            year: 'numeric', 
+            month: '2-digit', 
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit'
+        };
+        document.getElementById('current-time').textContent = now.toLocaleDateString('vi-VN', options);
+    }
+    
+    setInterval(updateTime, 60000); // Cập nhật mỗi phút
+</script>

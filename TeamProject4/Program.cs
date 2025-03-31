@@ -30,6 +30,10 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.AccessDeniedPath = "/Account/AccessDenied";
+});
 
 builder.Services.AddScoped<IPhongRepository, PhongRepository>();
 builder.Services.AddScoped<ILoaiPhongRepository, LoaiPhongRepository>();

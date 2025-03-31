@@ -9,9 +9,11 @@ namespace Team_Project_4.Controllers
     [CustomAuthorization(UserRole.Staff)]
     public class StaffController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(string Staff)
         {
+            ViewBag.Staff = Staff;
             return View();
         }
     }
+
 }

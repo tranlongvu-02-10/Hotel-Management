@@ -78,9 +78,9 @@ namespace Team_Project_4.Controllers
             {
                 // Set user role as a claim
                 var claims = new List<Claim>
-                {
-                    new Claim("Role", check.Tentknv.Contains("@gmail.com") ? "Staff" : "Manager")
-                };
+{
+    new Claim(ClaimTypes.Role, check.Tentknv.Contains("@gmail.com") ? "Staff" : "Manager")
+};
 
                 var userIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var principal = new ClaimsPrincipal(userIdentity);
@@ -119,6 +119,11 @@ namespace Team_Project_4.Controllers
             }
             return RedirectToAction("Login", "Account");
         }
+        // Thêm vào AccountController.cs
+public IActionResult AccessDenied()
+{
+    return View(); // Tạo view tương ứng tại Views/Account/AccessDenied.cshtml
+}
 
     }
 }

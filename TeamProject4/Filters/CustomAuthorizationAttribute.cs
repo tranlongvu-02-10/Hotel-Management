@@ -1,13 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using System.Security.Claims; // ĐÃ THÊM NAMESPACE
 using static Team_Project_4.Models.AuthorizationModel;
 
 namespace Team_Project_4.Filters
 {
     public class CustomAuthorizationAttribute : Attribute, IAuthorizationFilter
     {
-
-
         private readonly UserRole _requiredRole;
 
         public CustomAuthorizationAttribute(UserRole requiredRole)
@@ -25,15 +24,27 @@ namespace Team_Project_4.Filters
                 return;
             }
 
-            // Assume roles are stored as claims in the user's identity
-            var userRoles = user.FindAll("Role").Select(c => c.Value).ToList();
+            // LẤY ROLE TỪ CLAIM
+            var userRoleClaim = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role);
+            if (userRoleClaim == null)
+            {
+                context.Result = new ForbidResult();
+                return;
+            }
 
-            if (!userRoles.Contains(_requiredRole.ToString("G")))
+            // CHUYỂN ĐỔI ROLE TỪ STRING SANG ENUM
+            if (!Enum.TryParse<UserRole>(userRoleClaim.Value, out var userRole))
+            {
+                context.Result = new ForbidResult();
+                return;
+            }
+
+            // SO SÁNH ROLE VỚI ROLE YÊU CẦU
+            if (userRole != _requiredRole)
             {
                 context.Result = new ForbidResult();
                 return;
             }
         }
-
     }
 }
