@@ -23,18 +23,5 @@ A web-based application built using ASP.NET Core MVC for managing hotel operatio
 - Bootstrap 5 for responsive UI
 - Identity for authentication
 
----
-
-## 📁 Project Structure
-HotelManagement/
-├── Controllers/          # MVC Controllers
-├── Models/               # Domain models and ViewModels
-├── Views/                # Razor views
-├── Services/             # Business logic services
-├── Data/                 # Data access layer
-│   ├── Migrations/       # EF Core migrations
-│   └── ApplicationDbContext.cs
-├── wwwroot/              # Static files
-└── appsettings.json      # Configuration
 
 
